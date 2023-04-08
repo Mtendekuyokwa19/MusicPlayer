@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+body{
+font-family: Quicksand;
+background-color: rgb(211, 199, 199);
+
+
+}
+.albumArt{
+
+ border-radius: 14px;
+height: 220px;
+width: 220px;
+margin-left: 3.5rem;
+margin-top: 8rem;
+color: white;
+
+}
+.credits{
+
+
+color: white;
+margin-left: 6.5rem;
+
+}
+#artist{
+ font-weight: bold;
+ font-size: 20px;
+
+}
+#song{
+ margin-left: 27px;
+ margin-top: -12px;
+font-weight: 100;
+font-size: 14px;
+
+}
+
+.rectangle {
+    margin-left: 30rem;
+    background-color: #010038;
+    height: 35rem;
+    width: 20rem;
+    border-radius: 30px;
+   
+    transition: background-color 1s ease-out 10ms
+}
+#play{
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    border:solid white 1px;
+    
+    font-size: 20px;
+}
+.buttons{
+display: flex;
+justify-content: space-between;
+width: 221px;
+margin-left: 3.5rem ;
+}
+
+#like{
+
+    width: 20px;
+    height: 20px;
+     margin-top: 14px;
+
+}
+#download{
+
+    width: 20px;
+    height: 20px;
+     margin-top: 14px
+
+}
+div {
+    width: 200px;
+    height: 100px;
+   
+  }
+  
+  .rectangle:hover {
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);}
+  
