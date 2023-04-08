@@ -1,9 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 body{
 font-family: Quicksand;
-background-color: rgb(211, 199, 199);
+background-color: lightblue;
 
 
+}
+.images{
+
+  
+    height: 20rem;
+    width: 20rem;
+
+display: flex;
+flex-direction: column;
+gap:2rem;
+    
+}
+
+#name{
+ font-size: 8px;
+color: white;
+margin-left: 15.9rem;
+margin-top: -2rem;
+
+}
+#profile{
+margin-left: 16rem;
+width: 25px ;
+height: 25px;
+margin-top: 1.3rem;
+border-radius: 100%;
 }
 .albumArt{
 
@@ -11,7 +37,7 @@ background-color: rgb(211, 199, 199);
 height: 220px;
 width: 220px;
 margin-left: 3.5rem;
-margin-top: 8rem;
+
 color: white;
 
 }
@@ -41,7 +67,7 @@ font-size: 14px;
     height: 35rem;
     width: 20rem;
     border-radius: 30px;
-   
+   box-shadow: #2a2a72;
     transition: background-color 1s ease-out 10ms
 }
 #play{
