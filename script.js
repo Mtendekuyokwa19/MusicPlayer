@@ -1,6 +1,6 @@
 let button=document.querySelector('#play')
 let audio=document.querySelector('.kanye')
-window.addEventListener('keydown',function(e){
+button.addEventListener('click',function(e){
 
 
 audio.play();
